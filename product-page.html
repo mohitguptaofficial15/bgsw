@@ -1,70 +1,126 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BGSW Product Page</title>
+    <link rel="stylesheet" href="assets/css/product-page.css">
 </head>
 <body>
-    <h2><a href="index.html">Home</a></h2>
+    <header>
+        <a href="index.html">Home</a>
+    </header>
     <h4>Order Cart Detail</h4>
     <hr>
-    <form>
-        <table border="1" cellspacing="4" cellpadding="4" style="border-radius: 4%; border-collapse: collapse;">
-            <thead>
-                <tr align="center">
-                    <th>S.No.</th>
-                    <th>Product Name</th>
-                    <th>Product Image</th>
-                    <th>Price</th>
-                    <th>Product Details</th>
-                    <th>Select Item</th>
-                </tr>
-            </thead>
-            <tdata>
-                <tr align="center">
-                    <td>1</td>
-                    <td>Speaker</td>
-                    <td>
-                        <a href="https://commerce.boschsecurity.com/in/en/Cabinet-loudspeaker-metal-circular/p/F.01U.126.924/">
-                            <abbr title="click on the image to buy product"><img src="assets/images/speaker.jfif" width="90px" height="90px" alt="speaker"></abbr>
-                        </a>
-                    </td>
-                    <td>Rs. 9,939.00</td>
-                    <td><b>Bosch Speaker</b></td>
-                    <td><input type="checkbox" name="product"></td>
-                </tr>
+    <!-- <div class="form-container"> -->
+        <form>
+            <table border="1">
+                <colgroup>
+                    <col style="background-color: #dbf9fc">
+                    <col style="background-color: #fcdbdb">
+                    <col style="background-color: #dcedeb">
+                    <col style="background-color: #eddce4">
+                    <!-- <col span="2" style="background-color: #dcdced"> -->
+                    <col style="background-color: #f5f7cd">
+                    <col style="background-color: #adc0eb">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Product Name</th>
+                        <th>Product Image</th>
+                        <th>Price</th>
+                        <th>Product Details</th>
+                        <th>Select Item</th>    
+                    </tr>
+                </thead>
+                <tdata>
+                    <tr>
+                        <td>1</td>
+                        <td>Speaker</td>
+                        <td>
+                            <a href="https://commerce.boschsecurity.com/in/en/Cabinet-loudspeaker-metal-circular/p/F.01U.126.924/">
+                                <abbr title="click on the image to buy product"><img src="assets/images/speaker.jfif" width="90px" height="90px" alt="speaker"></abbr>
+                            </a>
+                        </td>
+                        <td>Rs. 9,939.00</td>
+                        <td><b>Bosch Speaker</b></td>
+                        <td><input type="checkbox" name="product"></td>
+                    </tr>
 
-                <tr align="center">
-                    <td>2</td>
-                    <td>Refrigerator</td>
-                    <td>
-                        <a href="https://www.bosch-home.in/productlist/fridges-freezers/fridge-freezers/free-standing-top-freezers/CTC35S02NI#/Togglebox=manuals/">
-                            <abbr title="click on the image to buy product"><img src="assets/images/refrigerator.jfif" width="90px" height="90px" alt="refrigerator"></abbr>
-                        </a>
-                    </td>
-                    <td>Rs. 99,915.00</td>
-                    <td><b>Bosch Refrigerator</b></td>
-                    <td><input type="checkbox" name="product"></td>
-                </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Refrigerator</td>
+                        <td>
+                            <a href="https://www.bosch-home.in/productlist/fridges-freezers/fridge-freezers/free-standing-top-freezers/CTC35S02NI#/Togglebox=manuals/">
+                                <abbr title="click on the image to buy product"><img src="assets/images/refrigerator.jfif" width="90px" height="90px" alt="refrigerator"></abbr>
+                            </a>
+                        </td>
+                        <td>Rs. 99,915.00</td>
+                        <td><b>Bosch Refrigerator</b></td>
+                        <td><input type="checkbox" name="product"></td>
+                    </tr>
 
-                <tr align="center">
-                    <td>3</td>
-                    <td>Oven</td>
-                    <td>
-                        <a href="https://www.bosch-home.in/productlist/cooking-baking/built-in-ovens/compactoven/CMG636BB2I#/Tabs=section-highlights/Togglebox=manuals/">
-                            <abbr title="click on the image to buy product"><img src="assets/images/oven.jfif" width="90px" height="90px" alt="oven"></abbr>
-                        </a>
-                    </td>
-                    <td>Rs. 219,000.00</td>
-                    <td><b>Bosch Oven</b></td>
-                    <td><input type="checkbox" name="product"></td>
-                </tr>
-            </tdata>
-        </table>
-        <br>
-        <input type="submit" name="checkout" value="Proceed to checkout">
-    </form>
+                    <tr>
+                        <td>3</td>
+                        <td>Oven</td>
+                        <td>
+                            <a href="https://www.bosch-home.in/productlist/cooking-baking/built-in-ovens/compactoven/CMG636BB2I#/Tabs=section-highlights/Togglebox=manuals/">
+                                <abbr title="click on the image to buy product"><img src="assets/images/oven.jfif" width="90px" height="90px" alt="oven"></abbr>
+                            </a>
+                        </td>
+                        <td>Rs. 219,000.00</td>
+                        <td><b>Bosch Oven</b></td>
+                        <td><input type="checkbox" name="product"></td>
+                    </tr>
+                </tdata>
+            </table>
+            <br>
+            <div class="submit">
+                <input type="submit" name="checkout" value="Proceed to checkout">
+            </div>
+        </form>
+    <!-- </div> -->
 
-    <footer style="position: fixed; bottom: 0; text-align: center;">
-        <img src="assets/images/bosch_footer_image.png" width="100%">
+    <!-- <footer>
+        <img src="assets/images/bosch-footer-image.png">
+        <p>&copy; 2025 BGSW</p>
+    </footer> -->
+    <footer>
+        <hr>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Service</h4>
+                <ul>
+                    <li><a href="#">Get Support</a></li>
+                    <li><a href="#">Repair Service</a></li>
+                    <li><a href="#">Care & Protection</a></li>
+                    <li><a href="#">Contact & Info</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h4>Experience Bosch</h4>
+                <ul>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Awards</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h4>Terms and Conditions</h4>
+                <ul>
+                    <li><a href="#">Terms and Conditions of Sale</a></li>
+                    <li><a href="#">General Promotion Terms and Condition</a></li>
+                    <li><a href="#">Warranty on Products</a></li>
+                    <li><a href="#">Big Bosch Offer Terms and Conditions</a></li>
+                    <li><a href="#">Big Bosch Offer Republic Day</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+        
+        <img src="assets/images/bosch-footer-image.png" alt="Bosch Footer Image">
         <p>&copy; 2025 BGSW</p>
     </footer>
 </body>

@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Container (to center the content) */
+.container {
+    width: 100%;
+    /* max-width: 500px; */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headings */
+h1 {
+    color: #dc078e;
+    border: #cb3232;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #004d99;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #004d99;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Links Styles */
+header a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+    /* display: inline-block; */
+}
+
+a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Links (Display on One Line) */
+footer img {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin-top: 10px;
+}
+form .links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form .links a {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #004d99;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Footer Text Styling */
+footer p {
+    margin-top: 10px;
+    color: #004d99;
+}
+
+footer {
+    background-color: #ffff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Footer container for columns */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Individual footer column */
+.footer-column {
+    flex: 1;
+    min-width: 250px; /* Set a minimum width for each column */
+    margin: 10px;
+}
+
+/* Header for each column */
+.footer-column h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+}
+
+/* Unordered list in each column */
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* List items in footer */
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+/* Links inside footer */
+.footer-column a {
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Footer paragraph */
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #004d99;
+}
+/* Footer Text Styling */
+
+/* Responsive Design for Small Screens */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}

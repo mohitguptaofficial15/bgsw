@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header{
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Footer */
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer img {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin-top: 10px;
+}
+
+/* Main Content Container */
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/* Product Image Styling */
+.product-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Paragraph Styling */
+p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+/* List Styling */
+ol, ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+/* Fieldset Styling */
+fieldset {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+/* Links Styling */
+a {
+    color: #ffff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Footer Text Styling */
+footer p {
+    margin-top: 10px;
+    color: #004d99;
+}
+
+footer {
+    background-color: #ffff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Footer container for columns */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Individual footer column */
+.footer-column {
+    flex: 1;
+    min-width: 250px; /* Set a minimum width for each column */
+    margin: 10px;
+}
+
+/* Header for each column */
+.footer-column h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+}
+
+/* Unordered list in each column */
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* List items in footer */
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+/* Links inside footer */
+.footer-column a {
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Footer paragraph */
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #004d99;
+}
+/* Footer Text Styling */

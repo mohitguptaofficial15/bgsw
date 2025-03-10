@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+/* .form-container { */
+    /* display: flex; */
+    /* justify-content: center; /* Horizontally center */
+    /* align-items: center; Vertically center */
+    /* height: 100vh; Full viewport height */ */
+/* } */
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Table Styles */
+/* border="1" cellspacing="4" cellpadding="4" style="border-radius: 4%; border-collapse: collapse;" */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    text-align: center;
+}
+
+form .submit {
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #004d99;
+    color: white;
+}
+
+td {
+    border-top: 1px solid #ddd;
+}
+
+td img {
+    border-radius: 8px;
+}
+
+td input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Button Styles */
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #004d99;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #003366;
+}
+
+/* Footer Styles */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer img {
+    width: 100%;
+    /* max-width: 300px; */
+}
+
+footer p {
+    margin: 10px 0;
+    color: blue;
+}
+
+/* Footer Text Styling */
+footer p {
+    margin-top: 10px;
+    color: #004d99;
+}
+
+footer {
+    background-color: #ffff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Footer container for columns */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Individual footer column */
+.footer-column {
+    flex: 1;
+    min-width: 250px; /* Set a minimum width for each column */
+    margin: 10px;
+}
+
+/* Header for each column */
+.footer-column h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+}
+
+/* Unordered list in each column */
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* List items in footer */
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+/* Links inside footer */
+.footer-column a {
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Footer paragraph */
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #004d99;
+}
+/* Footer Text Styling */
