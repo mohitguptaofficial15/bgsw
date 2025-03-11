@@ -14,6 +14,19 @@
     border-radius: 8px;
 }
 
+fieldset {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 26%;
+}
+
+legend {
+    font-weight: bold;
+    color: #004d99;
+}
+
 /* Headings */
 h1 {
     color: #dc078e;
@@ -55,6 +68,11 @@ input[type="email"] {
     color: #333;
 }
 
+input:focus::placeholder {
+    color: transparent;
+}
+
+
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus {
@@ -80,20 +98,6 @@ input[type="submit"]:hover {
     background-color: #2980b9;
 }
 
-/* Links Styles */
-header a {
-    color: #ffff;
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 15px;
-    /* display: inline-block; */
-}
-
-a:hover {
-    text-decoration: none;
-    color: #007bff;
-}
-
 header {
     background-color: #004d99;
     color: white;
@@ -101,12 +105,24 @@ header {
     text-align: center;
 }
 
-/* Links (Display on One Line) */
-footer img {
-    width: 100%;
-    /* max-width: 1200px; */
-    margin-top: 10px;
+header a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
 }
+
+header img#logo {
+    width: 6%;
+    height: 56px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
 form .links {
     text-align: center;
     margin-top: 15px;
@@ -121,16 +137,22 @@ form .links a {
 }
 
 /* Footer Text Styling */
-footer p {
-    margin-top: 10px;
-    color: #004d99;
-}
-
 footer {
     background-color: #ffff;
     color: white;
     padding: 20px 0;
     text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #004d99;
+}
+
+footer img {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin-top: 10px;
 }
 
 /* Footer container for columns */
@@ -146,7 +168,7 @@ footer {
 /* Individual footer column */
 .footer-column {
     flex: 1;
-    min-width: 250px; /* Set a minimum width for each column */
+    min-width: 250px;
     margin: 10px;
 }
 
@@ -189,7 +211,18 @@ footer p {
     font-size: 0.9rem;
     color: #004d99;
 }
+
+footer hr {
+    margin: 20px;
+    border: 1px solid #004d99;
+}
 /* Footer Text Styling */
+
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
 
 /* Responsive Design for Small Screens */
 @media (max-width: 600px) {

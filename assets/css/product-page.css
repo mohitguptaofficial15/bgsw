@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #007bff;
+}
+
 /* .form-container { */
     /* display: flex; */
     /* justify-content: center; /* Horizontally center */
@@ -30,8 +34,9 @@ header a {
     font-size: 20px;
 }
 
-a:hover {
-    color: #007bff;
+header img#logo {
+    width: 6%;
+    height: 56px;
 }
 
 /* Table Styles */
@@ -118,13 +123,6 @@ footer p {
     color: #004d99;
 }
 
-footer {
-    background-color: #ffff;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
 /* Footer container for columns */
 .footer-container {
     display: flex;
@@ -149,6 +147,11 @@ footer {
     margin-bottom: 10px;
     color: black;
     text-align: left;
+}
+
+footer hr {
+    margin: 20px;
+    border: 1px solid #004d99;
 }
 
 /* Unordered list in each column */

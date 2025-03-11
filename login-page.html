@@ -9,19 +9,23 @@
     <body>
 
         <header>
-            <a href="index.html">Home Page</a>
+            <a href="index.html">
+                <img src="assets/images/bosch-logo.png" alt="Website Logo" id="logo">
+            </a>
         </header>
         <div class="container">
             <h1>Welcome to BGSW Products Sign up</h1>
             <br>
             <br>
             <form>
-                <label for="username">Enter Username:</label>
-                <input type="text" name="username" id="username" required>
-                <br>
-                <label for="password">Enter Password:</label>
-                <input type="password" name="password" id="password" required>
-                <br><br>
+                <fieldset>
+                    <legend><strong>Username</strong></legend>
+                    <input type="text" name="username"id="username" placeholder="Enter Your Username" required>
+                </fieldset>
+                <fieldset>
+                    <legend><strong>Password</strong></legend>
+                    <input type="password" name="password"id="password" placeholder="Enter your Password" required>
+                </fieldset>
                 <input type="submit" value="Log In">
                 <div class="links">
                     <a href="signup-page.html">Sign Up</a>

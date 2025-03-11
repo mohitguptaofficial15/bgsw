@@ -14,23 +14,30 @@ body {
 
 /* Header */
 header{
+    padding: 10px 0;
+    width: 100%;
     background-color: #004d99;
     color: white;
-    text-align: center;
-    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
-/* Footer */
-footer {
+header a {
     color: white;
-    text-align: center;
-    padding: 10px 0;
+    text-decoration: none;
+    font-size: 14px;  /* Decrease font size */
+    font-weight: bold;
 }
 
-footer img {
-    width: 100%;
-    /* max-width: 1200px; */
-    margin-top: 10px;
+header img {
+    width: 6%;
+    height: auto;
+}
+
+header a:not(:last-child) {
+    margin-right: 10px;  /* Decrease space between links */
 }
 
 /* Main Content Container */
@@ -45,11 +52,6 @@ h3 {
     text-align: center;
     font-weight: bold;
     margin-top: 20px;
-}
-
-hr {
-    margin: 20px 0;
-    border: 1px solid #ddd;
 }
 
 /* Product Image Styling */
@@ -111,6 +113,17 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
+}
+
+footer img {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin-top: 10px;
+}
+
+footer hr {
+    margin: 20px 0;
+    border: 1px solid #004d99;
 }
 
 /* Footer container for columns */
